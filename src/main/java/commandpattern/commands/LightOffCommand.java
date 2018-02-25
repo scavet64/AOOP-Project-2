@@ -2,8 +2,6 @@ package commandpattern.commands;
 
 import commandpattern.Command;
 import commandpattern.model.Light;
-import commandpattern.modules.LightCommandModule;
-import dagger.Component;
 
 import javax.inject.Inject;
 

@@ -8,11 +8,19 @@ public class Light {
 
     private boolean on;
     public void switchOn(){
-        on = true;
-        System.out.println("Light is now on");
+        if(on){
+            System.out.println("Light is already on");
+        } else{
+            on = true;
+            System.out.println("Light is now on");
+        }
     }
     public void switchOff(){
-        on = false;
-        System.out.println("Light is now off");
+        if(!on){
+            System.out.println("Light is already off");
+        } else{
+            on = false;
+            System.out.println("Light is now off");
+        }
     }
 }

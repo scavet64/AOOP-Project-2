@@ -5,7 +5,6 @@ import dagger.Module;
 import dagger.Provides;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Module
 public class RemoteControlModule {

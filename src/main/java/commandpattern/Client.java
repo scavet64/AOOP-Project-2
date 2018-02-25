@@ -9,6 +9,7 @@ import commandpattern.modules.RemoteControlModule;
 import dagger.Component;
 import javax.inject.Singleton;
 
+
 public class Client {
 
     @Singleton
@@ -26,7 +27,6 @@ public class Client {
         controller.addOnCommand(new LightOnCommand(kitchenLight));
         controller.addOffCommand(new LightOffCommand(kitchenLight));
         controller.addButton(new Button(new LightOffCommand(kitchenLight)));
-
 
         controller.turnAllOn();
         controller.turnAllOff();
